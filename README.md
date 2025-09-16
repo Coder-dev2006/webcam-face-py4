@@ -1,4 +1,4 @@
-# webcam-face.
+# webcam-face-py
 
 Oddiy **Python + OpenCV** dasturi bo‘lib, rasm va kamera orqali yuzlarni aniqlaydi.  
 Loyiha **Haar Cascade classifier** asosida ishlaydi.  
