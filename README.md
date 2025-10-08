@@ -1,10 +1,28 @@
-# webcam-face-py
+# 👁️ Webcam Face Detection (Python + OpenCV)
 
-Oddiy **Python + OpenCV** dasturi bo‘lib, rasm va kamera orqali yuzlarni aniqlaydi.  
-Loyiha **Haar Cascade classifier** asosida ishlaydi.  
+This project uses **OpenCV** and **Python** to detect human faces in real time using a webcam feed.  
+It demonstrates basic computer vision and image processing concepts in a simple and practical way.
 
-imkoniyatlar :
-- Rasmdagi yuzlarni aniqlash va saqlash  
-- Webcam orqali real-time yuzlarni aniqlash  
-- Har bir yuz atrofiga to‘rtburchak chizib ko‘rsatish  
-- `q` tugmasi orqali chiqish  
+---
+
+## 🚀 Features
+- 🎥 Real-time face detection using a webcam
+- 🧠 Uses Haar Cascade Classifier
+- 📸 Draws bounding boxes around detected faces
+- 🗂️ Lightweight and easy to run
+
+---
+
+## 🛠️ Technologies Used
+- **Python 3**
+- **OpenCV (cv2)**
+- **Numpy**
+
+---
+
+## ⚙️ How to Run
+```bash
+git clone https://github.com/Coder-dev2006/webcam-face-py4.git
+cd webcam-face-py4
+pip install opencv-python numpy
+python main.py
