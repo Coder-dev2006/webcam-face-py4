@@ -1,28 +1,61 @@
-#  Webcam Face Detection (Python + OpenCV)
+# Webcam Face Detection with Heatmap
 
-This project uses **OpenCV** and **Python** to detect human faces in real time using a webcam feed.  
-It demonstrates basic computer vision and image processing concepts in a simple and practical way.
+**Author:** Samandar  -> github.com/Coder-dev2006
+
+This project performs **real-time face detection** using a webcam and visualizes a **heatmap** of the camera feed. It is designed for computer vision enthusiasts and educational purposes.  
 
 ---
 
 ##  Features
--  Real-time face detection using a webcam
--  Uses Haar Cascade Classifier
--  Draws bounding boxes around detected faces
--  Lightweight and easy to run
 
---
-
-##  Technologies Used
-- **Python 3**
-- **OpenCV (cv2)**
-- **Numpy**
+- Real-time **face detection** using Haar Cascade.  
+- **Heatmap visualization** of the webcam feed.  
+- Simulated **average face temperature** (0-255) displayed on each detected face.  
+- Two separate windows:  
+  1. **Face Detection** — shows faces with green rectangles.  
+  2. **Heatmap with Face Temp** — shows heatmap and face temperature values.
 
 ---
 
-##  How to Run
+##  Requirements
+
+- Python 3.7+  
+- OpenCV  
+- NumPy  
+
+### Installation:
+
 ```bash
-git clone https://github.com/Coder-dev2006/webcam-face-py4.git
-cd webcam-face-py4
 pip install opencv-python numpy
-python main.py
+ How to Run
+Clone the repository:
+
+bash
+Copy code
+git clone https://github.com/USERNAME/REPO_NAME.git
+cd REPO_NAME
+Run the script:
+
+bash
+Copy code
+python face_heatmap.py
+Two windows will open:
+
+Face Detection: faces outlined in green.
+
+Heatmap with Face Temp: shows the simulated heatmap and average face temperature.
+
+Press 'q' to quit.
+
+ Example
+Face Detection: Green rectangles highlight detected faces.
+
+Heatmap with Face Temp: Color-coded heatmap with temperature labels on faces.
+
+ Technologies
+OpenCV — Computer vision and video processing
+
+NumPy — Array and mathematical operations
+
+ License
+This project is licensed under the MIT License.
